@@ -3,7 +3,7 @@ body {
 
 }
 
-nav#cabecalho {
+#cabecalho {
 	background-color: #036b52;
 	position: fixed;
 	top: 0;
@@ -15,10 +15,18 @@ nav#cabecalho {
 
 }
 
-h1#titulo {
+#titulo {
 	position: relative;
 	text-align: center;
-	overflow-block: hidden;
+	color: rgb(253, 251, 251);
+	
+}
+
+#menu a{
+	position: relative;
+	font-size: 140%;
+	top: 60px;
+	color: rgb(253, 251, 251);
 }
 
 figure {

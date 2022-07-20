@@ -1,13 +1,16 @@
 body {
-background-color: rgb(253, 251, 251); }
+	background-color: rgb(253, 251, 251);
+}
 
-nav#cabecalho{
-background-color: #036b52; 
-position: fixed;
-top: 0;
-height: 10%; 
-width: 100%;
-box-sizing: border-box; }
+nav#cabecalho {
+	background-color: #036b52;
+	position: fixed;
+	top: 0;
+	height: 10%;
+	width: 100%;
+	box-sizing: border-box;
+}
 
-h1#titulo{
-text-align: center; }
+h1#titulo {
+	text-align: center;
+}

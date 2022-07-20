@@ -50,6 +50,12 @@ figcaption {
 
 }
 
+aside{
+	position: relative;
+	top: 130px;
+	text-align: justify;
+}
+
 #rodape {
 	position: absolute;
 	bottom: 0;

@@ -1,16 +1,8 @@
 body {
-	background-color: rgb(
-		253, 
-		251, 
-		251
-	); }
+	background-color: rgb(253, 251, 251); }
 
 #cabecalho {
-	background-color: rgb(
-		3, 
-		107, 
-		82
-		);
+	background-color: rgb(3, 107, 82);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -23,11 +15,7 @@ body {
 #titulo {
 	position: relative;
 	text-align: center;
-	color: rgb(
-		253, 
-		251, 
-		251
-		);
+	color: rgb(253, 251, 251);
 	z-index: 9999; }
 
 #menu li a {
@@ -35,11 +23,7 @@ body {
 	font-size: 140%;
 	top: 60px;
 	left: 8px;
-	color: rgb(
-		253, 
-		251, 
-		251
-		);
+	color: rgb(253, 251, 251);
 	z-index: 9999; }
 
 figure {

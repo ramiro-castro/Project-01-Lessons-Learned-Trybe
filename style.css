@@ -22,10 +22,11 @@ body {
 	
 }
 
-#menu a{
-	position: relative;
+#menu li a{
+	position: absolute;
 	font-size: 140%;
 	top: 60px;
+	left: 8px;
 	color: rgb(253, 251, 251);
 }
 

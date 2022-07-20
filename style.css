@@ -1,33 +1,49 @@
 body {
 	background-color: rgb(253, 251, 251);
+
 }
 
 nav#cabecalho {
 	background-color: #036b52;
 	position: fixed;
 	top: 0;
+	left: 0;
 	height: 10%;
 	width: 100%;
 	box-sizing: border-box;
+	font-size: 140%;
+
 }
 
 h1#titulo {
+	position: relative;
 	text-align: center;
+	overflow-block: hidden;
 }
 
-img#minha_foto {
-	width: 30%;
-	position: absolute;
-	top: 80px;
-	left: 60px;
+figure {
+
+	position: relative;
+	top: 130px;
+	text-align: center;
+
 
 }
 
-figcaption{
-	
-	/*text-align: center;*/
+#minha_foto {
+
+	width: 20%;
+
+}
+
+figcaption {
+
+	font-size: 140%;
+
+}
+
+#rodape {
 	position: absolute;
-	top: 240px;
-	font-size: 80%;
-	left: 65px;
+	bottom: 0;
+	left: 0;
 }

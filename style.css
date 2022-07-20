@@ -2,4 +2,6 @@ body {
 background-color: rgb(253, 251, 251); }
 
 nav#cabecalho{
-background-color: #036b52; }
+background-color: #036b52; 
+height: 40px;
+top: 0; } 

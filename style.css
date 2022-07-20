@@ -3,5 +3,12 @@ background-color: rgb(253, 251, 251); }
 
 nav#cabecalho{
 background-color: #036b52; 
-height: 40px;
-top: 0; } 
+position: fixed;
+top: 0;
+height: 10%; 
+width: 100%;
+box-sizing: border-box; 
+}
+
+h1#titulo{
+text-align: center;}

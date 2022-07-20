@@ -5,13 +5,14 @@ body {
 
 #cabecalho {
 	background-color: #036b52;
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: fixed;
+	top: 0px;
+	left: 0px;
 	height: 10%;
 	width: 100%;
 	box-sizing: border-box;
 	font-size: 140%;
+	z-index:9999;
 
 }
 
@@ -19,15 +20,16 @@ body {
 	position: relative;
 	text-align: center;
 	color: rgb(253, 251, 251);
-	
+	z-index:9999;
 }
 
 #menu li a{
-	position: absolute;
+	position: fixed;
 	font-size: 140%;
 	top: 60px;
 	left: 8px;
 	color: rgb(253, 251, 251);
+	z-index:9999;
 }
 
 figure {

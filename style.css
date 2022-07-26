@@ -20,14 +20,14 @@ body {
 #menu li a {
   position: fixed;
   font-size: 140%;
-  top: 60px;
+  top: 90px;
   left: 8px;
   color: rgb(253, 251, 251);
   z-index: 9999; }
 
 figure {
   position: relative;
-  top: 80px;
+  top: 140px;
   text-align: center; }
 
 #minha_foto {
@@ -49,11 +49,6 @@ table {
   font-weight: 800;
   line-height: 1cm;
   text-align: left; }
-
-#tituloColuna {
-  font-size: 100%;
-  font-weight: 800;
-  text-align: center; }
 
 .lado-a-lado {
   display: flex;

@@ -11,10 +11,8 @@
 
 <body>
 
-	<header>
-		<section id="cabecalho">
-			<h1 id="titulo"> Lessons Learned - Trybe!</h1>
-		</section>
+	<header id="cabecalho">
+		<h1 id="titulo"> Lessons Learned - Trybe!</h1>
 
 		<nav id="menu">
 			<li><a href="https://app.betrybe.com/login" target="_blank" rel="noopener noreferrer">Login</a></li>
@@ -33,43 +31,53 @@
 		
 		<table>
 			<caption id="tituloTabela">Lições</caption>
-			<tr>
-				<td>
-					<p id="tituloColuna">Aprendidas</p>
-					<ol id="licoes_aprendidas">
-						<li>Unix</li>
-						<li>Git</li>
-						<li>GitHub</li>
-						<li>Empatia</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>Slack</li>
-						<li>Zoom</li>
-						<li>Inspect</li>
-						<li>Semantic HTML</li>
-					</ol>
-				</td>
-			
-				<td>
-					<p id="tituloColuna">A aprender</p>
-					<ul id="licoes_a_aprender">
-						<li>JavaScript</li>
-						<li>DOM</li>
-						<li>Forms</li>
-						<li>CSS Responsive</li>
-						<li>ES6</li>
-						<li>HOF</li>
-						<li>Unit Tests</li>
-						<li>React</li>
-						<li>Node</li>
-						<li>SQL</li>
-					</ul>
-				</td>
-			</tr>
+			<thead>
+				<tr>
+					<th>
+						Aprendidas
+					</th>
+					<th>
+						A aprender
+					</th>
+				</tr>
+			</thead>
+			<tbody>	
+				<tr>
+					<td>
+						<ol id="licoes_aprendidas">
+							<li>Unix</li>
+							<li>Git</li>
+							<li>GitHub</li>
+							<li>Empatia</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Slack</li>
+							<li>Zoom</li>
+							<li>Inspect</li>
+							<li>Semantic HTML</li>
+						</ol>
+					</td>
+				
+					<td>
+						<ul id="licoes_a_aprender">
+							<li>JavaScript</li>
+							<li>DOM</li>
+							<li>Forms</li>
+							<li>CSS Responsive</li>
+							<li>ES6</li>
+							<li>HOF</li>
+							<li>Unit Tests</li>
+							<li>React</li>
+							<li>Node</li>
+							<li>SQL</li>
+						</ul>
+					</td>
+				</tr>
+			</tbody>
 		</table>
 		
 
-		<section class="lado-a-lado">
+		<div class="lado-a-lado">
 			<aside class="lado-esquerdo">
 				<p>
 					Olá!! Eu me chamo Ramiro, sou brasileiro e no momento vivo na cidade de Teresina - PI.
@@ -86,7 +94,7 @@
 					curso e de estar empregado no setor de desenvolvimento web.
 				</p>
 			</article>
-		</section>
+		</div>
 		
 	</main>
 

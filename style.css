@@ -36,34 +36,33 @@ figure {
 figcaption {
   font-size: 140%; }
 
-#listas {
+table {
   position: relative;
   top: 130px;
-  line-height: 0.6cm; }
-
-table {
-  border: 1px solid green; 
+  line-height: 0.6cm;
+  border: 1px solid green;
   padding: 4px;
   margin: 20px; }
 
 #tituloTabela {
   font-size: 150%;
-  font-weight: bold;
+  font-weight: 800;
   line-height: 1cm;
   text-align: left; }
 
 #tituloColuna {
   font-size: 100%;
-  font-weight: bold; }
+  font-weight: 800;
+  text-align: center; }
 
-.lado-a-lado {/*Flex Container: encurtador.com.br/sGHQ0*/
-  display: flex;
+.lado-a-lado {
+  display: flex; /* Flex Container: encurtador.com.br/sGHQ0 */ 
   justify-content: space-evenly;
   align-items: center; }
 
-.lado-esquerdo, .lado-direito {
-  margin: 15px; } 
- 
+.lado-esquerdo , .lado-direito {
+  margin: 15px; }
+
 .lado-esquerdo {
   width: 40%;
   position: relative;
@@ -73,13 +72,13 @@ table {
 
 .lado-direito {
   width: 60%;
-  text-align: justify;	
-  position: relative; 
-  line-height: 0.6cm; 
+  text-align: justify;
+  position: relative;
+  line-height: 0.6cm;
   top: 130px; }
 
 #rodape {
   position: relative;
   top: 130px;
-  left: 0; 
+  left: 0;
   font-size: 50%; }

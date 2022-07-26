@@ -1,14 +1,13 @@
 body {
-  background-color: rgb(253, 251, 251); }
+  background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif; }
 
 #cabecalho {
   background-color: rgb(3, 107, 82);
   position: fixed;
   top: 0;
   left: 0;
-  height: 10%;
   width: 100%;
-  box-sizing: border-box;
   font-size: 140%;
   z-index: 9999; }
 
@@ -37,20 +36,50 @@ figure {
 figcaption {
   font-size: 140%; }
 
-#sobreMim {
-  position: relative;
-  top: 100px;
-  text-align: justify; }
-
 #listas {
   position: relative;
+  top: 130px;
+  line-height: 0.6cm; }
+
+table {
+  border: 1px solid green; 
+  padding: 4px;
+  margin: 20px; }
+
+#tituloTabela {
+  font-size: 150%;
+  font-weight: bold;
+  line-height: 1cm;
+  text-align: left; }
+
+#tituloColuna {
+  font-size: 100%;
+  font-weight: bold; }
+
+.lado-a-lado {/*Flex Container: encurtador.com.br/sGHQ0*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.lado-esquerdo, .lado-direito {
+  margin: 15px; } 
+ 
+.lado-esquerdo {
+  width: 40%;
+  position: relative;
+  text-align: justify;
+  line-height: 0.6cm;
   top: 130px; }
 
-#sobreListas {
-  position: relative;
+.lado-direito {
+  width: 60%;
+  text-align: justify;	
+  position: relative; 
+  line-height: 0.6cm; 
   top: 130px; }
 
 #rodape {
   position: relative;
   top: 130px;
-  left: 0; }
+  left: 0; 
+  font-size: 50%; }
